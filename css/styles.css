@@ -333,3 +333,7 @@
     line-height: 1.875;
     color: var(--secondary-text-color);
 }
+.box{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
