@@ -316,6 +316,8 @@
 }
 
 .filter-list-section-ul {
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .filter-list-section-ul h3 {
