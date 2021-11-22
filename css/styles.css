@@ -1,0 +1,189 @@
+/* основной цвет фона #E5E5E5 */
+
+/* вторичный цвет фона #F5F4FA */
+
+/* основной цвет текста Roboto 500 #212121 */
+
+/* вторичный цвет текста Roboto 400 #757575 */
+
+/* цвет при наведении(active) #2196F3 */
+
+/* белый цвет текста #FFFFFF */
+
+/* Header section */
+
+.main-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.main-logo > span {
+    color: var(--active-color);
+}
+
+.btn {
+    cursor: pointer;
+    color: var(--white-text-color);
+    background-color: var(--active-color);
+    text-align: center;
+}
+
+.site-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-text-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    outline: none;
+}
+.site-nav .link.current {
+    color: var(--active-color);
+}
+.site-nav a:hover {
+    color: var(--active-color);
+}
+.site-nav a:active {
+    color: var(--active-color);
+    background-color: inherit;
+}
+.site-nav a:focus {
+    color: var(--white-text-color);
+}
+/* Hero-section */
+
+.hero-title {
+    color: var(--white-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Что мы делаем */
+.whatdoing-ul h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.whatdoing-ul p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.section-title-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+}
+.section-title-list p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--secondary-text-color);
+}
+
+/* footer section */
+.footer-section {
+    background-color: var(--footer-bcg-color);
+}
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--white-text-color);
+}
+.footer-logo span {
+    color: var(--active-color);
+}
+.address-link > a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.current-address {
+    color: var(--white-text-color);
+    text-decoration: none;
+    outline: none;
+}
+.current-address:hover {
+    color: var(--active-color);
+    background-color: inherit;
+}
+.address-section {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    outline: none;
+}
+
+.address-section:hover,
+.address-section:focus {
+    color: var(--active-color);
+    background-color: inherit;
+}
+
+.address-section-opacity {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* .portfolio */
+
+.btn-filter {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--white-text-color);
+    background-color: var(--active-color);
+}
+.btn-filter:focus {
+    color: var(--white-text-color);
+}
+
+.filter-list-section-ul h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.filter-list-section-ul p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--secondary-text-color);
+}
