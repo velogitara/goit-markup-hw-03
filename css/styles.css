@@ -277,7 +277,6 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px dashed orange;
 }
 .button-filter-list.list {
     flex-direction: row;
