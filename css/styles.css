@@ -269,6 +269,10 @@
 
 /* .portfolio */
 
+.portfolio-section {
+    padding-top: 0;
+}
+
 .main-portfolio-section {
     background-color: var(--white-color);
     padding-top: 94px;
