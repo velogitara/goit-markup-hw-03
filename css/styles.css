@@ -30,10 +30,11 @@
     background-color: var(--white-color);
     padding-bottom: 0;
     padding-top: 0;
-}
-.header {
     border-bottom: 1px solid #ececec;
 }
+/* .header {
+    border-bottom: 1px solid #ececec;
+} */
 .site-nav {
     display: flex;
     align-items: center;
@@ -58,6 +59,10 @@
 
 .site-nav-ul .link {
     display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
 
     color: var(--primary-text-color);
     text-decoration: none;
@@ -70,13 +75,15 @@
 }
 .site-nav-ul a:hover {
     color: var(--active-color);
+    background-color: var(--white-color);
 }
 .site-nav-ul a:active {
     color: var(--active-color);
-    background-color: inherit;
+    background-color: var(--active-color);
 }
 .site-nav-ul a:focus {
-    color: var(--white-color);
+    color: var(--active-color);
+    background-color: var(--white-color);
 }
 .list {
     display: flex;
@@ -101,6 +108,7 @@
     text-align: center;
     background: #2f303a;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
     color: var(--white-color);
@@ -121,7 +129,6 @@
     padding: 10px 32px;
     border-radius: 4px;
     border: transparent;
-    margin-bottom: 200px;
 }
 
 /* Что мы делаем */
@@ -150,6 +157,7 @@
     line-height: 1.15;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 .whatdoing-ul p {
@@ -165,6 +173,17 @@
     background-color: var(--white-color);
     padding-top: 0;
 }
+
+.preview-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ourteam-section */
+.ourteam-section {
+    background-color: #f5f4fa;
+}
+
 .section-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -186,6 +205,7 @@
     font-size: 16px;
     line-height: 1.18;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 .section-title-list p {
     font-weight: normal;
@@ -193,26 +213,20 @@
     line-height: 1.18;
     color: var(--secondary-text-color);
 }
-
-.preview-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.section-title-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-/* ourteam-section */
-.ourteam-section {
-    background-color: #f5f4fa;
-}
-/* footer section */
+/* ======================footer section starts====================== */
 .footer-section {
     background-color: var(--footer-bcg-color);
     padding-bottom: 0;
     padding-top: 0;
 }
-/* .footer-section-container {
-    display: flex;
-    flex-direction: column;
-} */
+.footer-section-container {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
 .footer-logo {
     display: block;
     font-family: Raleway;
@@ -222,8 +236,7 @@
     line-height: 1.19;
     text-decoration: none;
     color: var(--white-color);
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .footer-logo span {
     color: var(--active-color);
@@ -231,7 +244,6 @@
 .address-link {
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
 }
 .address-link > a {
     font-style: normal;
@@ -240,7 +252,7 @@
     line-height: 1.7;
 }
 .address-link > a:not(:first-child) {
-    padding-top: 9px;
+    margin-top: 9px;
 }
 .current-address {
     color: var(--white-color);
@@ -251,10 +263,22 @@
     color: var(--active-color);
     background-color: inherit;
 }
+.current-address:focus {
+    color: var(--active-color);
+    background-color: inherit;
+}
+.current-address:active {
+    color: var(--active-color);
+    background-color: inherit;
+}
 .address-section {
     color: var(--secondary-text-color);
     text-decoration: none;
     outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
 }
 
 .address-section:hover,
@@ -266,16 +290,17 @@
 .address-section-opacity {
     color: rgba(255, 255, 255, 0.6);
 }
+/* ======================footer section ends====================== */
 
-/* .portfolio */
+/* ========================= portfolio starts ========================= */
 
 .portfolio-section {
-    padding-top: 0;
+    padding-top: 94px;
 }
 
 .main-portfolio-section {
     background-color: var(--white-color);
-    padding-top: 94px;
+
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -285,7 +310,7 @@
 .button-filter-list.list {
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .btn-filter {
     color: var(--primary-text-color);
@@ -351,6 +376,7 @@
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
 .filter-list-section-ul p {
     font-weight: normal;
@@ -358,3 +384,9 @@
     line-height: 1.875;
     color: var(--secondary-text-color);
 }
+
+.filter-list-description {
+    padding: 20px 24px;
+}
+
+/* ========================= portfolio ends ========================= */
